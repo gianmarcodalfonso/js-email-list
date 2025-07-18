@@ -13,3 +13,10 @@ const rndm10mail = ((list) => {
 })
 
 rndm10mail(mailList)
+
+const reset = document.getElementById(`reset`)
+
+reset.addEventListener(`click`, function(e) {
+  e.preventDefault;
+  rndm10mail(mailList)
+})
